@@ -12,7 +12,7 @@ Advent Of Code 2022 - Day 1 Calorie Counting
 #>
 
 <#---------- VARIABLES ----------#>
-$Calories             = Get-Content "$PSScriptRoot\CalorieList.txt"
+$Calories             = Get-Content "$PSScriptRoot\input.txt"
 $TotalCalories_Elf    = 0
 $AllElfsCalorieCount  = @()
 $ElfNumber            = 1
